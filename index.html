@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <nav>
+        <div class="logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnLtHv2pjuizv7JmlgEDsFVB2GIzr83BZCRg&s" alt=""></div>
+        <div class="tag">
+           <a href="">Home</a>
+           <a href="">About Us</a>
+           <a href="">Contact Us</a>
+           <a href="">Feedback</a>
+        </div>
+    </nav>
+    <div class="slider">
+       <div><img id="slide-img" class="slides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCQ69YFBT53N2lbPVbzyiKzu6x6iHd_fY6Qw&s" alt=""></div></div>
+       <div class="images"> 
+       <div class="img"><img onclick="showImage(1)" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfd7GbB523lTKwyX3Kv9x5o_XZpvQgH-DbjeQpFUUnJamUiSmk6tjMrytBgVArpWiMzM0&usqp=CAU" alt=""></div>
+       <div class="img"><img onclick="showImage(2)" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-DZSAO_ckrPjJCPEwuI2p-hiM3wRAUj1tMl7eVZx6CYW3TH4vVwcRHkgaDbrpf0_yMkY&usqp=CAU" alt=""></div>
+       <div class="img"><img onclick="showImage(3)" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjCik-CyGyA8rU1cUCP7H5iod5SlwSthJaeSNqU0WHspjmHRVvBPob-LE1azDcgkHXW5s&usqp=CAU" alt=""></div>
+    </div>
+        <div onclick="prevImg()" class="left-arrow"><i class="fa-solid fa-less-than"></i></div>
+        <div onclick="nextImg()" class="right-arrow"><i class="fa-solid fa-greater-than"></i></div>
+    </div>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
